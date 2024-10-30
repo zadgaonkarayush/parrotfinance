@@ -1,0 +1,121 @@
+.sidebar {
+    background-color: rgba(31,31,31,1); /* Light grey */
+    width: 100px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-bottom: 2px solid #333;
+  }
+  
+  /* Logo styling */
+  .sidebar-logo {
+    width: 100%;
+    border-bottom: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    padding-top:10px;
+    padding-bottom: 20px;
+  }
+  
+  .logo {
+    width: 40px;
+  }
+  
+  /* Profile section styling */
+  .sidebar-profile {
+    width: 100%;
+    border-bottom: 2px solid #333;
+    text-align: center;
+    padding: 40px 0;
+    margin-top:25px;
+  }
+  
+  .profile-image {
+    width: 45px;
+    /* height: 40px; */
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border-radius: 50% 0 50% 50%;
+  }
+  
+  .send-button {
+    background-color: #333;
+    color: white;
+    border: 2px solid #333;
+    border-radius: 60% 60% 60% 60%;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: relative;
+    top:10px;
+  }
+  
+  .send-button:hover {
+    background-color: white;
+    color: #333;
+  }
+  
+  /* Button section styling */
+  .sidebar-buttons {
+    width: 100%;
+    margin-top: 30px;
+    border-bottom: 2px solid #333;
+  }
+  
+  .sidebar-btn {
+    width: 100%;
+    padding:20px 25px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .sidebar-btn:hover {
+    
+    color: rgba(211,251,91,1);
+  }
+  
+  /* Footer styling for Night Mode and Shutdown */
+  .sidebar-footer {
+    margin-top: 75px;
+    width: 100%;
+    padding-bottom: 60px;
+  }
+  .sidebar-footer2 {
+    margin-top: 30px;
+    width: 100%;
+    padding-bottom: 80px;
+    background-color: #333;
+  }
+  .moon{
+    background-color: #333;
+    width:15px;
+    height:15px;
+    
+    margin-left: 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    color:rgba(211,251,91,1);
+  }
+  .power{
+    background-color: #333;
+    width:15px;
+    height:15px;
+    margin-left: 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    color:red;
+    margin-top: 30px;
+  }
